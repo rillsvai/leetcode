@@ -1,4 +1,3 @@
-
 pub fn get_concatenation(nums: Vec<i32>) -> Vec<i32> {
     let mut result = nums.clone();
     result.extend(nums);
@@ -11,13 +10,11 @@ pub fn get_concatenation2(nums: Vec<i32>) -> Vec<i32> {
 
     for (i, num) in nums.iter().enumerate() {
         result[i] = *num;
-        result[i+length] = *num;
+        result[i + length] = *num;
     }
-    
+
     result
-
 }
-
 
 #[cfg(test)]
 mod tests {
@@ -25,13 +22,13 @@ mod tests {
 
     #[test]
     fn test_get_concatenation() {
-        assert_eq!( get_concatenation(vec![1,2,3]), vec![1,2,3,1,2,3]);
-        assert_eq!( get_concatenation(vec![]), vec![]);
+        assert_eq!(get_concatenation(vec![1, 2, 3]), vec![1, 2, 3, 1, 2, 3]);
+        assert_eq!(get_concatenation(vec![]), vec![]);
     }
 
     #[test]
     fn test_get_concatenation2() {
-        assert_eq!( get_concatenation2(vec![1,2,3]), vec![1,2,3,1,2,3]);
-        assert_eq!( get_concatenation2(vec![]), vec![]);
+        assert_eq!(get_concatenation2(vec![1, 2, 3]), vec![1, 2, 3, 1, 2, 3]);
+        assert_eq!(get_concatenation2(vec![]), vec![]);
     }
 }
