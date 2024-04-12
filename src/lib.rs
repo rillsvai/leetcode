@@ -6,6 +6,7 @@ pub mod arrays {
 }
 pub mod math {
     pub mod convert_the_temperature;
+    pub mod divisible_and_non_divisible_sums_difference;
     pub mod find_the_maximum_achievable_number;
 }
 pub mod strings {
