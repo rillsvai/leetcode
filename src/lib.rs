@@ -3,6 +3,7 @@ pub mod arrays {
     pub mod concatenation_of_array;
     pub mod number_of_good_pairs;
     pub mod shuffle_the_array;
+    pub mod subrectangle_queries;
 }
 pub mod math {
     pub mod convert_the_temperature;
