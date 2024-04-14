@@ -1,6 +1,7 @@
 pub mod arrays {
     pub mod build_array_from_permutation;
     pub mod concatenation_of_array;
+    pub mod find_the_original_array_of_prefix_xor;
     pub mod number_of_good_pairs;
     pub mod shuffle_the_array;
     pub mod subrectangle_queries;
