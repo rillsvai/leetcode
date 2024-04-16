@@ -20,6 +20,10 @@ pub mod strings {
     pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
 }
 
+pub mod design {
+    pub mod design_parking_system;
+}
+
 pub mod common {
     pub mod list_node;
 }
