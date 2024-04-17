@@ -1,15 +1,15 @@
-struct ParkingSystem {
+pub struct ParkingSystem {
     big: i32,
     medium: i32,
     small: i32,
 }
 
 impl ParkingSystem {
-    fn new(big: i32, medium: i32, small: i32) -> Self {
+    pub fn new(big: i32, medium: i32, small: i32) -> Self {
         ParkingSystem { big, medium, small }
     }
 
-    fn add_car(&mut self, car_type: i32) -> bool {
+    pub fn add_car(&mut self, car_type: i32) -> bool {
         match car_type {
             1 if self.big >= 1 => {
                 self.big -= 1;
