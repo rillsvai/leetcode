@@ -6,6 +6,7 @@ pub mod arrays {
     pub mod richest_customer_wealth;
     pub mod shuffle_the_array;
     pub mod subrectangle_queries;
+    pub mod widest_vertical_area_between_two_points_containing_no_points;
 }
 pub mod math {
     pub mod convert_the_temperature;
