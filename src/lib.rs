@@ -9,6 +9,7 @@ pub mod arrays {
     pub mod widest_vertical_area_between_two_points_containing_no_points;
 }
 pub mod math {
+    pub mod add_two_integers;
     pub mod convert_the_temperature;
     pub mod divisible_and_non_divisible_sums_difference;
     pub mod find_the_maximum_achievable_number;
