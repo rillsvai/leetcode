@@ -2,6 +2,7 @@ pub mod arrays {
     pub mod build_array_from_permutation;
     pub mod concatenation_of_array;
     pub mod find_the_original_array_of_prefix_xor;
+    pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
     pub mod richest_customer_wealth;
     pub mod shuffle_the_array;
