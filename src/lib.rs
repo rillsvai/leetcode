@@ -15,6 +15,7 @@ pub mod math {
     pub mod divisible_and_non_divisible_sums_difference;
     pub mod find_the_maximum_achievable_number;
     pub mod insert_greatest_common_divisors_in_linked_list;
+    pub mod smallest_even_multiple;
 }
 pub mod strings {
     pub mod defanging_an_ip_address;
