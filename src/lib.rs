@@ -3,6 +3,7 @@ pub mod arrays {
     pub mod concatenation_of_array;
     pub mod find_the_original_array_of_prefix_xor;
     pub mod group_the_people_given_the_group_size_they_belong_to;
+    pub mod kids_with_the_greatest_number_of_candies;
     pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
     pub mod richest_customer_wealth;

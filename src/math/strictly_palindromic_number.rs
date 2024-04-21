@@ -1,4 +1,6 @@
-pub fn is_strictly_palindromic(n: i32) -> bool {}
+pub fn is_strictly_palindromic(_n: i32) -> bool {
+    false
+}
 
 #[cfg(test)]
 mod tests {
