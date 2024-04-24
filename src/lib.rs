@@ -25,6 +25,7 @@ pub mod strings {
     pub mod defanging_an_ip_address;
     pub mod final_value_of_variable_after_performing_operations;
     pub mod find_words_containing_character;
+    pub mod goal_parser_interpretation;
     pub mod jewels_and_stones;
     pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
 }
