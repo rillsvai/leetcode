@@ -9,6 +9,7 @@ pub mod arrays {
     pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
     pub mod richest_customer_wealth;
+    pub mod running_sum_of_1d_array;
     pub mod shuffle_the_array;
     pub mod subrectangle_queries;
     pub mod widest_vertical_area_between_two_points_containing_no_points;
@@ -35,6 +36,10 @@ pub mod design {
     pub mod design_parking_system;
 }
 
+pub mod tree {
+    pub mod range_sum_of_bst;
+}
 pub mod common {
     pub mod list_node;
+    pub mod tree_node;
 }
