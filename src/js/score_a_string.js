@@ -10,5 +10,3 @@ var scoreOfString = function (s) {
 
   return sum;
 };
-
-console.log(scoreOfString("hello"));
