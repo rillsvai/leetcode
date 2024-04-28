@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: leetcode-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: leetcode
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: leetcode
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_HOST_AUTH_METHOD: scram-sha-256
+      MAX_CONNECTIONS: 200
+    volumes:
+      - leetcode-postgres-data:/var/lib/postgresql/data
+    networks:
+      - leetcode-postgres-network
+    restart: unless-stopped
+
+volumes:
+  leetcode-postgres-data:
+    name: leetcode-postgres-data
+    driver: local
+
+networks:
+  leetcode-postgres-network:
+    name: leetcode-postgres-network
+    driver: bridge
