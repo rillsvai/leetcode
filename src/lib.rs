@@ -23,6 +23,7 @@ pub mod math {
     pub mod insert_greatest_common_divisors_in_linked_list;
     pub mod smallest_even_multiple;
     pub mod strictly_palindromic_number;
+    pub mod subtract_the_product_and_sum_of_digits_of_an_integer;
 }
 pub mod strings {
     pub mod defanging_an_ip_address;
