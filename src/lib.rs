@@ -7,6 +7,7 @@ pub mod arrays {
     pub mod group_the_people_given_the_group_size_they_belong_to;
     pub mod how_many_numbers_are_smaller_than_the_current_number;
     pub mod kids_with_the_greatest_number_of_candies;
+    pub mod maximum_number_of_words_found_in_sentences;
     pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
     pub mod richest_customer_wealth;
