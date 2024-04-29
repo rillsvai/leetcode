@@ -40,6 +40,7 @@ pub mod design {
 }
 
 pub mod tree {
+    pub mod count_nodes_equal_to_average_of_subtree;
     pub mod range_sum_of_bst;
 }
 pub mod common {
