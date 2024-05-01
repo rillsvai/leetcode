@@ -1,17 +1,15 @@
-struct Codec<'a> {
-    url: &'a str,
-}
+pub struct Codec {}
 
-impl Codec<'_> {
-    fn new() -> Self {
-        Codec { url: "" }
+impl Codec {
+    pub fn new() -> Self {
+        Self {}
     }
 
-    fn encode(&self, longURL: String) -> String {
-        longURL
+    pub fn encode(&self, long_url: String) -> String {
+        long_url
     }
 
-    fn decode(&self, shortURL: String) -> String {
-        shortURL
+    pub fn decode(&self, short_url: String) -> String {
+        short_url
     }
 }
