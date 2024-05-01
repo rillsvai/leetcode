@@ -29,6 +29,7 @@ pub mod math {
 }
 pub mod strings {
     pub mod defanging_an_ip_address;
+    pub mod encode_and_decode_tiny_url;
     pub mod final_value_of_variable_after_performing_operations;
     pub mod find_words_containing_character;
     pub mod goal_parser_interpretation;
