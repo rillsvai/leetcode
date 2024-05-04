@@ -3,6 +3,7 @@ pub mod arrays {
     pub mod concatenation_of_array;
     pub mod convert_an_array_into_a_2d_array_with_conditions;
     pub mod count_pairs_whose_sum_is_less_than_target;
+    pub mod decode_xored_array;
     pub mod find_the_original_array_of_prefix_xor;
     pub mod group_the_people_given_the_group_size_they_belong_to;
     pub mod how_many_numbers_are_smaller_than_the_current_number;
