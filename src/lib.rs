@@ -12,6 +12,7 @@ pub mod arrays {
     pub mod minimum_number_of_operations_to_make_array_xor_equal_to_k;
     pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
+    pub mod queries_on_number_of_points_inside_a_circle;
     pub mod richest_customer_wealth;
     pub mod running_sum_of_1d_array;
     pub mod shuffle_the_array;
