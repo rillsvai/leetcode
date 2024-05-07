@@ -9,6 +9,7 @@ pub mod arrays {
     pub mod how_many_numbers_are_smaller_than_the_current_number;
     pub mod kids_with_the_greatest_number_of_candies;
     pub mod left_and_right_sum_differences;
+    pub mod max_increase_to_keep_city_skyline;
     pub mod maximum_number_of_words_found_in_sentences;
     pub mod minimum_number_of_operations_to_make_array_xor_equal_to_k;
     pub mod number_of_employees_who_met_the_target;
