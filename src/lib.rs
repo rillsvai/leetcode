@@ -40,6 +40,7 @@ pub mod strings {
     pub mod goal_parser_interpretation;
     pub mod jewels_and_stones;
     pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
+    pub mod reverse_prefix_of_word;
 }
 
 pub mod design {
