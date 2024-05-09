@@ -28,6 +28,7 @@ pub mod math {
     pub mod divisible_and_non_divisible_sums_difference;
     pub mod find_the_maximum_achievable_number;
     pub mod insert_greatest_common_divisors_in_linked_list;
+    pub mod minimum_sum_of_four_digit_number_after_splitting_digits;
     pub mod smallest_even_multiple;
     pub mod strictly_palindromic_number;
     pub mod subtract_the_product_and_sum_of_digits_of_an_integer;
