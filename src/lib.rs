@@ -54,6 +54,7 @@ pub mod design {
 }
 
 pub mod tree {
+    pub mod binary_search_tree_to_greater_sum_tree;
     pub mod count_nodes_equal_to_average_of_subtree;
     pub mod deepes_leaves_sum;
     pub mod range_sum_of_bst;
