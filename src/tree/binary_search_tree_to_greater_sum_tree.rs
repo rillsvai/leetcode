@@ -2,7 +2,7 @@ use std::{cell::RefCell, rc::Rc};
 
 use crate::common::tree_node::TreeNode;
 
-struct Solution {}
+pub struct Solution {}
 
 impl Solution {
     fn dfs(root: &Option<Rc<RefCell<TreeNode>>>, value: &mut i32) {
