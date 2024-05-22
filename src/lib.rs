@@ -23,6 +23,7 @@ pub mod arrays {
     pub mod running_sum_of_1d_array;
     pub mod shuffle_the_array;
     pub mod subrectangle_queries;
+    pub mod sum_of_all_subset_xor_totals;
     pub mod sum_of_values_at_indices_with_k_set_bits;
     pub mod widest_vertical_area_between_two_points_containing_no_points;
     pub mod xor_operation_in_a_array;
