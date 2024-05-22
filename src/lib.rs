@@ -63,6 +63,10 @@ pub mod tree {
     pub mod deepes_leaves_sum;
     pub mod range_sum_of_bst;
 }
+
+pub mod linked_lists {
+    pub mod merge_nodes_in_beetwen_zeros;
+}
 pub mod common {
     pub mod list_node;
     pub mod tree_node;
