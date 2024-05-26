@@ -63,6 +63,7 @@ pub mod tree {
     pub mod count_nodes_equal_to_average_of_subtree;
     pub mod deepes_leaves_sum;
     pub mod range_sum_of_bst;
+    pub mod sum_of_node_with_even_valued_grandparent;
 }
 
 pub mod linked_lists {
