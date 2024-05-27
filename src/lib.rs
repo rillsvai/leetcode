@@ -6,6 +6,7 @@ pub mod arrays {
     pub mod create_target_array_in_the_given_order;
     pub mod decode_xored_array;
     pub mod decompress_run_length_encoded_list;
+    pub mod find_the_number_of_good_pairs;
     pub mod find_the_original_array_of_prefix_xor;
     pub mod group_the_people_given_the_group_size_they_belong_to;
     pub mod how_many_numbers_are_smaller_than_the_current_number;
