@@ -15,6 +15,7 @@ pub fn subset_xor_sum(nums: Vec<i32>) -> i32 {
 mod tests {
     use crate::arrays::sum_of_all_subset_xor_totals::subset_xor_sum;
 
+    #[test]
     fn test_subset_xor_sum() {
         assert_eq!(subset_xor_sum(vec![1, 3]), 6);
         assert_eq!(subset_xor_sum(vec![5, 1, 6]), 28);

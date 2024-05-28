@@ -13,7 +13,7 @@ pub fn number_of_pairs(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use crate::arrays::{find_the_number_of_good_pairs::number_of_pairs, number_of_good_pairs};
+    use crate::arrays::find_the_number_of_good_pairs::number_of_pairs;
 
     #[test]
     fn test_number_of_pairs() {
