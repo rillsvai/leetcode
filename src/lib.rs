@@ -1,5 +1,6 @@
 pub mod arrays {
     pub mod build_array_from_permutation;
+    pub mod check_if_two_string_arrays_are_equivalent;
     pub mod concatenation_of_array;
     pub mod convert_an_array_into_a_2d_array_with_conditions;
     pub mod count_pairs_whose_sum_is_less_than_target;
