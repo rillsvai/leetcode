@@ -16,6 +16,7 @@ pub mod arrays {
     pub mod left_and_right_sum_differences;
     pub mod max_increase_to_keep_city_skyline;
     pub mod maximum_number_of_words_found_in_sentences;
+    pub mod minimum_amount_of_time_to_collect_a_garbage;
     pub mod minimum_number_game;
     pub mod minimum_number_of_operations_to_make_array_xor_equal_to_k;
     pub mod minimum_number_of_operations_to_move_all_balls_to_each_box;
