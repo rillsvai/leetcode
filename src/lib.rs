@@ -45,6 +45,7 @@ pub mod math {
     pub mod smallest_even_multiple;
     pub mod strictly_palindromic_number;
     pub mod subtract_the_product_and_sum_of_digits_of_an_integer;
+    pub mod sum_multiples;
 }
 pub mod strings {
     pub mod defanging_an_ip_address;

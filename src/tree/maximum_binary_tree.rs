@@ -21,7 +21,7 @@ use std::rc::Rc;
 
 use crate::common::tree_node::TreeNode;
 
-struct Solution {}
+pub struct Solution {}
 impl Solution {
     pub fn construct_maximum_binary_tree(nums: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
         use std::collections::*;
