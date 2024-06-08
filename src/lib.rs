@@ -60,6 +60,7 @@ pub mod strings {
     pub mod permutation_difference_between_two_strings;
     pub mod reverse_prefix_of_word;
     pub mod split_a_string_in_balanced_strings;
+    pub mod truncate_sentence;
 }
 
 pub mod design {
