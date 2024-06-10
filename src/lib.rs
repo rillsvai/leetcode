@@ -4,6 +4,7 @@ pub mod arrays {
     pub mod concatenation_of_array;
     pub mod convert_an_array_into_a_2d_array_with_conditions;
     pub mod count_pairs_whose_sum_is_less_than_target;
+    pub mod count_triplets_that_can_form_two_arrays_of_equal_xor;
     pub mod create_target_array_in_the_given_order;
     pub mod decode_xored_array;
     pub mod decompress_run_length_encoded_list;
