@@ -27,6 +27,7 @@ pub mod arrays {
     pub mod number_of_good_pairs;
     pub mod number_of_laser_beans_in_a_bank;
     pub mod number_of_steps_to_reduce_a_number_to_zero;
+    pub mod partition_array_according_to_a_given_pivor;
     pub mod queries_on_number_of_points_inside_a_circle;
     pub mod richest_customer_wealth;
     pub mod running_sum_of_1d_array;
