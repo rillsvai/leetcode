@@ -22,6 +22,7 @@ pub mod arrays {
     pub mod minimum_number_game;
     pub mod minimum_number_of_operations_to_make_array_xor_equal_to_k;
     pub mod minimum_number_of_operations_to_move_all_balls_to_each_box;
+    pub mod minimum_numbers_of_moves_to_seat_everyone;
     pub mod minimum_operation_to_exceed_threshold_value;
     pub mod number_of_employees_who_met_the_target;
     pub mod number_of_good_pairs;
