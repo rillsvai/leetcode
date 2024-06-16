@@ -63,6 +63,7 @@ pub mod strings {
     pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
     pub mod permutation_difference_between_two_strings;
     pub mod reverse_prefix_of_word;
+    pub mod shuffle_string;
     pub mod split_a_string_in_balanced_strings;
     pub mod truncate_sentence;
 }
