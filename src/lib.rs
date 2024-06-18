@@ -17,6 +17,7 @@ pub mod arrays {
     pub mod largest_local_values_in_a_matrix;
     pub mod left_and_right_sum_differences;
     pub mod max_increase_to_keep_city_skyline;
+    pub mod maximum_number_of_coins_you_can_get;
     pub mod maximum_number_of_words_found_in_sentences;
     pub mod minimum_amount_of_time_to_collect_a_garbage;
     pub mod minimum_number_game;
